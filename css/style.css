@@ -1,0 +1,245 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #f3f5f9;
+}
+
+.whitecolor{
+    background-color:white;
+}
+
+h1{
+    padding-left: 4%;
+    float:left;
+}
+
+.header{
+  overflow: hidden;
+    background:#77cc6d;
+    color:white;
+    
+}
+hr{
+    height: 0.5px;
+    background-color: lightgrey;
+    border: none;
+    padding: none;
+}
+
+.c1 {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding-top:20px;
+    padding-bottom:40px;
+    border-color:lightgrey;
+    height: 10px;
+}
+
+.ht{
+    height: 100px;    
+}
+.Content{
+    text-overflow: ellipsis;
+    margin-left:40px;
+    margin-right:40px;  
+    margin-bottom: 30px;
+}
+
+.section-box {
+    overflow: hidden;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color:lightgrey; 
+    height: 350px;   
+}
+
+.h2{
+    padding-top:20px;
+    padding-bottom:20px;
+    }
+
+.h1{
+    padding-left: 2%;
+    float: left;
+    font-weight: bold;
+    color:#333333;
+}
+
+.totalMoney{
+    padding-right:3%;
+    color: lightseagreen;
+    float: right;
+}
+.limitMoney{
+    padding-right:3%;
+    color: #ff4d4d;
+    float: right;
+}
+
+/*button*/
+
+.Forms{
+    float:left;
+    padding-left: 3%;
+    padding-top:20px;
+    width: 55%;
+}
+
+select{
+    margin-left: 10px;
+    padding-right:20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 4px;
+    border-color:grey;
+    outline:none;
+    
+}
+.input1{
+    margin-bottom: 20px;
+}
+
+input{
+    font-size: 25px;
+    border-radius: 3px;
+    border-width:thin;
+    border-style: solid;
+    border-color: lightgray;
+    width: 160%;
+}
+
+label{
+float:left;
+margin-bottom:10px;
+white-space: nowrap;
+}
+
+.AddButtons{
+    width: 161%;
+    display: flex;
+    gap:8px;   
+}
+.AddButtons button{
+    outline:none;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    padding: 15px 20px;
+}
+
+.b3{
+    width: 50%;
+    cursor: pointer;
+    background-color: lightsalmon;  
+}
+.b8{
+    width: 50%;
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.f{
+    margin-top:10px;
+    padding-left: 2%;
+}
+
+.filter{
+    background-color: lightgrey;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.filtersearch{
+    margin-left:2%;
+    font-size: 15px;
+    width:40%;
+}
+.date{
+    float:right;
+    color: lightcoral;
+    font-style:normal;
+    margin-right: 10%;
+}
+.transData{
+    margin-left: 10%;
+    font-style:italic;
+}
+.ac{
+    overflow: scroll;
+    color:lightseagreen;
+    
+}
+.border{
+    border-radius: 3px;
+    border-width:thin;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: lightgray;
+    
+}
+
+.section-box5{
+    overflow: scroll;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color:lightgrey;
+    height: 350px;
+}
+
+/*responsive*/
+
+@media screen and (max-width:700px){
+
+    .AddButtons button{
+        padding: 10px 15px;
+        font-size: 12px;
+        white-space: nowrap;
+        
+    }
+    *{
+        font-size: 15px;
+    }
+.Content{
+    margin-left:15px;
+    margin-right:15px;
+    
+}
+.section-box{
+    height: 350px;
+}
+.c1{
+    overflow: hidden;
+    height:90px;
+}
+.transData{
+    margin-left:2px;
+    white-space: nowrap;
+    font-size:13px;
+}
+.date{
+    font-size:13px;
+    margin-right:2px;
+    
+}
+
+.c11{
+    height: 10px;
+}
+.activities{
+   padding-left:10%;
+    padding-right:10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    white-space: nowrap;
+   justify-content: space-around;
+   gap: 10%;
+}
+}

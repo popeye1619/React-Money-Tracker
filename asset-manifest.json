@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Money-Tracker/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/React-Money-Tracker/static/js/main.9e615edc.chunk.js",
+    "main.js.map": "/React-Money-Tracker/static/js/main.9e615edc.chunk.js.map",
+    "runtime-main.js": "/React-Money-Tracker/static/js/runtime-main.3bb23edf.js",
+    "runtime-main.js.map": "/React-Money-Tracker/static/js/runtime-main.3bb23edf.js.map",
+    "static/js/2.6dfdf6a5.chunk.js": "/React-Money-Tracker/static/js/2.6dfdf6a5.chunk.js",
+    "static/js/2.6dfdf6a5.chunk.js.map": "/React-Money-Tracker/static/js/2.6dfdf6a5.chunk.js.map",
+    "index.html": "/React-Money-Tracker/index.html",
+    "precache-manifest.9c9671a3c3d6246b861f0b3a13b20d9b.js": "/React-Money-Tracker/precache-manifest.9c9671a3c3d6246b861f0b3a13b20d9b.js",
+    "service-worker.js": "/React-Money-Tracker/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/React-Money-Tracker/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.6dfdf6a5.chunk.js.LICENSE.txt": "/React-Money-Tracker/static/js/2.6dfdf6a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bb23edf.js",
+    "static/js/2.6dfdf6a5.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.9e615edc.chunk.js"
+  ]
+}
